@@ -7,6 +7,8 @@ The advantage of this method:
 - the script itself is deleted after authorization
 - you can log in under any user, including the admin
 
+For authorization, you need to go in the browser to the script thrown into the root of the site - /auth.php?ADMIN=AUTORIZE111
+
 # Авторизация без пароля в Bitrix (Bitrix, Bitrix24, Bitrix24 + CRM) 
 
 Очень часто начинающие разработчики ждут пока им выдадут доступ к сайту на Bitrix не зная, что авторизоваться можно и без доступа
@@ -16,3 +18,4 @@ The advantage of this method:
 - скрипт сам удаляется после авторизации
 - авторизоваться можно под любым пользователем, включая админа
 
+Для авторизации необходимо перейти в браузере на закинутый в корень сайта скрипт - /auth.php?ADMIN=AUTORIZE111
