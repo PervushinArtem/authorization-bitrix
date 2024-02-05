@@ -4,10 +4,11 @@ Very often, novice developers wait until they are given access to a site on Bitr
 
 The advantage of this method:
 - the minimum degree of protection. Only the developer knows the password
+- The script stops working a minute after being uploaded to the site
 - the script itself is deleted after authorization
 - you can log in under any user, including the admin
 
-For authorization, you need to go in the browser to the script thrown into the root of the site - /auth.php?ADMIN=AUTORIZE111
+For authorization, you need to go in the browser to the script thrown into the root of the site - /auth-1.php?ADMIN=AUTORIZE111
 
 # Авторизация без пароля в Bitrix (Bitrix, Bitrix24, Bitrix24 + CRM) 
 
@@ -15,7 +16,8 @@ For authorization, you need to go in the browser to the script thrown into the r
 
 Преимущество этого метода:
 - минимальная степень защиты. Пароль занает только разработчик
+- скрипт перестает действовать через минуту после заливки на сайт
 - скрипт сам удаляется после авторизации
 - авторизоваться можно под любым пользователем, включая админа
 
-Для авторизации необходимо перейти в браузере на закинутый в корень сайта скрипт - /auth.php?ADMIN=AUTORIZE111
+Для авторизации необходимо перейти в браузере на закинутый в корень сайта скрипт - /auth-1.php?ADMIN=AUTORIZE111
