@@ -4,9 +4,8 @@ Very often, novice developers wait until they are given access to a site on Bitr
 
 The advantage of this method:
 - the minimum degree of protection. Only the developer knows the password
-- The script stops working a minute after being uploaded to the site
+- the script stops working 60 seconds after uploading to the site
 - the script itself is deleted after authorization
-- the script will become useless after 60 seconds after uploading to the site
 - you can log in under any user, including the admin
 
 For authorization, you need to go in the browser to the script thrown into the root of the site - /auth-1.php?ADMIN=AUTORIZE111
@@ -17,9 +16,8 @@ For authorization, you need to go in the browser to the script thrown into the r
 
 Преимущество этого метода:
 - минимальная степень защиты. Пароль занает только разработчик
-- скрипт перестает действовать через минуту после заливки на сайт
+- скрипт перестает действовать через 60 секунд после заливки на сайт
 - скрипт сам удаляется после авторизации
-- скрипт сстановится бесполезным по истечении 60 секунд, после заливки на сайт
 - авторизоваться можно под любым пользователем, включая админа
 
 Для авторизации необходимо перейти в браузере на закинутый в корень сайта скрипт - /auth-1.php?ADMIN=AUTORIZE111
